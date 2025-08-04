@@ -33,10 +33,11 @@ while True:
              print("\n\tSomething went Wrong. Please try again!")
         
     play_again = input("Do you want to play again? (Yes/No): ")
-    if play_again != "Yes" or "yes" or "YES":
+   if play_again.lower() != "yes":
          print("Thanks for playing! Goodbye!")
          break 
      
             
 
     
+
